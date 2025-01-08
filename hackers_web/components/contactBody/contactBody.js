@@ -32,7 +32,7 @@ export default function ContactBody() {
         <Row className={`${classes["committee-header"]}`}>
           <h6>OUR DEDICATED TEAM</h6>
           <h2>Executive Committee</h2>
-          <h3>2024/2025</h3>
+          <h3>2025</h3>
         </Row>
         <Committee />
       </Container>
