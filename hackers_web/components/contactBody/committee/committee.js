@@ -15,7 +15,7 @@ export default function Committee() {
    * change names and links in below map (data)
    */
 
-  let imgFolder = "/img/committees/2024-2025/";
+  let imgFolder = "/img/committees/2025/";
 
   let data = {
     senior_treasurer: {
@@ -23,31 +23,31 @@ export default function Committee() {
       linkedIn: "#",
       email: "#", 
     },
-    president: { name: "Ruchira Tharaka", linkedIn: "#", email: "#" },
-    vice_president: { name: "Chaminda Weerasinghe", linkedIn: "#", email: "#" },
-    secretary: { name: "Uthsara Wickramaarachchi", linkedIn: "#", email: "#" },
+    president: { name: "Uthsara Wickramaarachchi", linkedIn: "#", email: "#" },
+    vice_president: { name: "Ravindu Lakshan", linkedIn: "#", email: "#" },
+    secretary: { name: "Bhagya senevirathna", linkedIn: "#", email: "#" },
     assistant_secretary: {
-      name: "Tharindu Lakshan",
+      name: "Nadeera Kothalawala",
       linkedIn: "#",
       email: "#",
     },
-    editor: { name: "Chamudi Jayasumana", linkedIn: "#", email: "#" },
+    editor: { name: "Dhinushika Abrew", linkedIn: "#", email: "#" },
     junior_treasurer: {
-      name: "Sameera Kumarasinghe",
+      name: "Lahiru Dinusha",
       linkedIn: "#",
       email: "#",
     },
-    committee_member_1: { name: "Piumal Rathnayake", linkedIn: "#", email: "#" },
+    committee_member_1: { name: "Pasan Dissanayake", linkedIn: "#", email: "#" },
     committee_member_2: {
-      name: "Didula Induwara",
+      name: "Dulshan Thilakarathne",
       linkedIn: "#",
       email: "#",
     },
-    committee_member_3: { name: "Jeevajith Madushanka", linkedIn: "#", email: "#" },
-    committee_member_4: { name: "Hirushi Gunasekara", linkedIn: "#", email: "#" },
-    committee_member_5: { name: "Sandun Munasinghe", linkedIn: "#", email: "#" },
+    committee_member_3: { name: "Kavindu Gajendra", linkedIn: "#", email: "#" },
+    committee_member_4: { name: "Shehan Gunasinha", linkedIn: "#", email: "#" },
+    committee_member_5: { name: "Kaveesha Madhushan", linkedIn: "#", email: "#" },
     committee_member_6: {
-      name: "Janindu Iroshan",
+      name: "Sithum Perera",
       linkedIn: "#",
       email: "#",
     },
@@ -97,7 +97,7 @@ export default function Committee() {
           </Col>
           <Col md={3} sm={6}>
             {buildMemberTile(
-              imgFolder + "assistant_secretary.jpeg",
+              imgFolder + "assistant_secretary.jpg",
               "ASSISTANT SECRETARY",
               data["assistant_secretary"]["name"],
               data["assistant_secretary"]["linkedIn"],
@@ -126,7 +126,7 @@ export default function Committee() {
         <Row>
           <Col md={4} sm={6}>
             {buildMemberTile(
-              imgFolder + "committee_member_1.jpeg",
+              imgFolder + "committee_member_1.jpg",
               "COMMITTEE MEMBER",
               data["committee_member_1"]["name"],
               data["committee_member_1"]["linkedIn"],
@@ -164,7 +164,7 @@ export default function Committee() {
           </Col>
           <Col md={4} sm={6}>
             {buildMemberTile(
-              imgFolder + "committee_member_5.jpg",
+              imgFolder + "committee_member_5.jpeg",
               "COMMITTEE MEMBER",
               data["committee_member_5"]["name"],
               data["committee_member_5"]["linkedIn"],
